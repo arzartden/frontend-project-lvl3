@@ -49,7 +49,7 @@ const config = {
 																[
 																		'autoprefixer',
 																		{
-																				// Options
+																				// options
 																		},
 																],
 														],
@@ -71,7 +71,7 @@ const config = {
 																	[
 																			'autoprefixer',
 																			{
-																					// Options
+																					// options
 																			},
 																	],
 															],
