@@ -6,15 +6,14 @@ import MiniCssExtractPlugin from 'mini-css-extract-plugin';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const isProduction = process.env.NODE_ENV == 'production';
+const isProduction = process.env.NODE_ENV === 'production';
 
 const stylesHandler = isProduction ? MiniCssExtractPlugin.loader : 'style-loader';
-
 
 const config = {
   entry: './src/index.js',
   output: {
-      path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'dist'),
   },
   devServer: {
     open: true,
@@ -93,9 +92,7 @@ const config = {
 export default () => {
   if (isProduction) {
     config.mode = 'production';
-
     config.plugins.push(new MiniCssExtractPlugin());
-
   } else {
     config.mode = 'development';
   }
