@@ -16,6 +16,10 @@ const config = {
     path: path.resolve(__dirname, 'dist'),
   },
   devServer: {
+    static: {
+      directory: path.join(__dirname),
+    },
+    hot: 'only',
     open: true,
     host: 'localhost',
   },
