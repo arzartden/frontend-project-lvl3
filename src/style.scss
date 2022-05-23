@@ -1,1 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
+
+.form-control:focus {
+  border-color: #4c4e4d;
+  box-shadow: 0 0 0 0.2rem #4c4e4d;;
+}
