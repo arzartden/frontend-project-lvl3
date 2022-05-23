@@ -1,4 +1,4 @@
-### RSS aggregator
+# RSS aggregator
 
 [![Actions Status](https://github.com/arzartden/frontend-project-lvl3/workflows/hexlet-check/badge.svg)](https://github.com/arzartden/frontend-project-lvl3/actions)
 [![Build Status](https://github.com/arzartden/frontend-project-lvl3/actions/workflows/build.yml/badge.svg)](https://github.com/arzartden/frontend-project-lvl3/actions/workflows/build.yml)
